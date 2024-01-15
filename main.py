@@ -1,5 +1,4 @@
-def main():
-    return 'this is branch_practice'
+from random import sample
 
-if __name__ == '__main__':
-    print(main())
+print(sample(range(1, 46), k=6))
+
