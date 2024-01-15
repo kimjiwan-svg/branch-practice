@@ -1,6 +1,6 @@
 def fizz_buzz(num):
-    if num % 3 == 0:
-        return 'fizz'
+    if num % 15 == 0:
+        return 'fizzbuzz'
     else:
         return f'{num}'
 
